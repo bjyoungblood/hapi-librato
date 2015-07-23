@@ -1,0 +1,37 @@
+{
+  "name": "hapi-librato",
+  "version": "0.0.0",
+  "description": "Hapi plugin to send stats to Librato",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "make dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjyoungblood/hapi-librato.git"
+  },
+  "keywords": [
+    "hapi",
+    "librato"
+  ],
+  "author": "Ben Youngblood <bx.youngblood@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bjyoungblood/hapi-librato/issues"
+  },
+  "homepage": "https://github.com/bjyoungblood/hapi-librato#readme",
+  "devDependencies": {
+    "babel": "^5.8.3",
+    "babel-eslint": "^3.1.26",
+    "eslint": "^0.24.1"
+  },
+  "dependencies": {
+    "hoek": "^2.14.0",
+    "joi": "^6.6.1",
+    "lodash": "^3.10.0"
+  },
+  "peerDependencies": {
+    "librato-node": "^4.0.0"
+  }
+}
