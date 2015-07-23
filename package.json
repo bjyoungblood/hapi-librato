@@ -1,6 +1,6 @@
 {
   "name": "hapi-librato",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Hapi plugin to send stats to Librato",
   "main": "dist/index.js",
   "scripts": {
